@@ -17,4 +17,5 @@ app.use(router);
 mongoose.connect(process.env.MONGO_URI).then(()=>{
    console.log('Bien connecté à Mongodb')
    app.listen(8080);
-})
+});
+
